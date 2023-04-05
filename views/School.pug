@@ -2,5 +2,13 @@ extends layout
 
 block content
   h1= title
-  
+  -let results=[{name:"Naveena",establishedYear:1977,principal:"Naveen"},{name:"Northwest",establishedYear:1997,principal:"Smith"},{name:"Kennedy",establishedYear:1967,principal:"Krishna"}]
+    
+    div(class="container-fluid")
+    div(class="row")
+        each item,index in results
+            div(class="col-sm-2")
+                p Name:  #{item.name} 
+                p EstablishedYear: #{item.establishedYear}
+                p Principal: #{item.principal}
 
