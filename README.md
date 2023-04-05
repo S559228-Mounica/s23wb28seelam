@@ -1,9 +1,9 @@
 # s23wb28seelam
 [Hosted at](https://s23wb28seelam.onrender.com)
 
-Class: School
+Class: Shirt
 
 Attributes:
-name(String)
-establishedYear(number)
-principal(String)
+brand(String)
+cost(number)
+color(String)
